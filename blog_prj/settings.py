@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'django_gravatar',
     'django_forms_bootstrap',
     'debug_toolbar',
-    'storages'
+    'storages',
 
 ]
 
@@ -155,8 +155,6 @@ SITE_ID = 1
 AWS_STORAGE_BUCKET_NAME = os.environ.get('AWS_STORAGE_BUCKET_NAME')
 AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
 AWS_SECRET_ACCESS_KEY= os.environ.get('AWS_SECRET_ACCESS_KEY')
-AWS_ACCESS_KEY_ID = 'AKIAIV364JXH6R5W3UKQ'
-AWS_SECRET_ACCESS_KEY= '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'
 AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
 AWS_S3_HOST ='s3-eu-west-1.amazonaws.com'
 
